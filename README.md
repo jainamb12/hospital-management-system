@@ -1,20 +1,36 @@
 # HOSPITAL MANAGEMENT SYSTEM
-The Hospital Management System is developed as my **first semester java project**. It is java based project developed using basic java conditional statements, loops, and functions. This system demostrates the use of **object oriented programming concept**, **Array of objects**  for storing patient data. This is console based system which is handled by admin staff of hospital.
+
+This Hospital Management System is a console-based Java application developed as a first-semester project. It demonstrates fundamental Java concepts like conditional statements, loops, and functions, alongside core Object-Oriented Programming (OOP) principles. The system utilizes an array of objects to efficiently store and manage patient data, and it's designed for use by hospital administrative staff.
+
 ![Project flow chart](images/hms-system-design.png)
 
+
+## Features
+
+This system provides the following functionalities for hospital administration:
+
+1. **Patient Search**: Quickly find existing patient records using a unique patient ID.
+2. **Patient Registration**: Register new patients, capturing essential details such as ID, name, age, date, day, and contact information.
+3. **Patient Update**: Modify details for existing patient records.
+4. **Appointment Booking**: Schedule appointments for patients with doctors, considering doctor availability on specific days.
+5. **Bed Booking**: Allocate hospital beds to patients. This feature is implemented using a 3D array to represent the hospital layout, indicating floor number, room number, and bed number for each dimension.
+
+
 ## Installation
+
 1. Clone the repo:
    ```sh
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/jainamb12/hospital-management-system.git
    ```
 2. Navigate into the project directory:
    ```sh
-   cd yourproject
+   cd src
    ```
 3. Install Requirements:
    ```sh
    Java Development Kit (JDK) 11+  
 Download from: [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) or [OpenJDK](https://openjdk.org/)
+
 
  ## Running the Project
 
@@ -27,12 +43,6 @@ Download from: [Oracle JDK](https://www.oracle.com/java/technologies/javase-down
    java HospitalManagementSystem
    ``` 
 
-## Features
-1. **patient searching**: Search for patient by ID if already exist.
-2. **patient registration**: Register new patient with patient ID, name, age, date, day, contact.
-3. **patient update**: Update patient details if already exist.
-4. **Appoinment booking**: Books appointment for patient with doctor on the basis of availability of doctor on specific day
-5. **Bed Booking**: Book bed for patient on the basis of availability of bed in hospital implemented using 3d array indicates floor number, room number and bed number for each dimension.
-
 ## Contributions
-I am still learning GitHub! If you have any suggestions, feel free to open an issue or a pull request.
+
+As I'm still learning and improving my GitHub skills, any suggestions or contributions are highly welcome! Feel free to open an issue to report bugs or suggest enhancements, or submit a pull request with your proposed changes.
